@@ -1,0 +1,49 @@
+{
+  "name": "p4ng-server",
+  "version": "1.0.0",
+  "description": "A realtime Node.js pong game",
+  "main": "src/app.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "callsite": "^1.0.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "shelljs": "^0.7.5",
+    "socket.io": "^1.5.1",
+    "underscore": "^1.8.3",
+    "uuid": "^3.0.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/test.js",
+    "startServer": "node src/server/launch-server.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/test.js",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jy95/P4ng-server.git"
+  },
+  "keywords": [
+    "pong",
+    "ping pong",
+    "Ping Pong game",
+    "game",
+    "socket.io game",
+    "Ping Pong"
+  ],
+  "author": "Team JaEGT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jy95/P4ng-server/issues"
+  },
+  "homepage": "https://github.com/jy95/P4ng-server#readme"
+}
