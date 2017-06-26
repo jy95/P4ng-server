@@ -2,7 +2,7 @@
   "name": "p4ng-server",
   "version": "1.0.0",
   "description": "A realtime Node.js pong game",
-  "main": "src/app.js",
+  "main": "src/server/launch-server.js",
   "dependencies": {
     "async": "^2.1.4",
     "bcryptjs": "^2.3.0",
@@ -16,6 +16,7 @@
     "winston": "^2.3.0"
   },
   "devDependencies": {
+    "socket.io-client": "^1.6.0",
     "coveralls": "^2.11.15",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",

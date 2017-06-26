@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - "6.9.1"
+  - "node"
+cache:
+  directories:
+    - node_modules
+services:
+  - mongodb
+install:
+  - npm install
+after_success:
+  - mongo P4ngDb --eval "db.dropDatabase()"
+  - npm run coveralls
+notifications:
+  slack:
+      on_success: change
+      on_failure: always
+branches:
+  only:
+  - master
+env:
+  global :
+      - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
