@@ -14,7 +14,8 @@
     "underscore": "^1.8.3",
     "mongoose": "^4.7.2",
     "uuid": "^3.0.0",
-    "winston": "^2.3.0"
+    "winston": "^2.3.0",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "socket.io-client": "^1.6.0",
@@ -27,7 +28,9 @@
     "test": "mocha test/test.js",
     "startServer": "node src/server/launch-server.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/test.js",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -46,5 +49,6 @@
   "bugs": {
     "url": "https://github.com/jy95/P4ng-server/issues"
   },
-  "homepage": "https://github.com/jy95/P4ng-server#readme"
+  "homepage": "https://github.com/jy95/P4ng-server#readme",
+  "snyk": true
 }
