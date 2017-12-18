@@ -12,6 +12,7 @@ install:
 after_success:
   - mongo P4ngDb --eval "db.dropDatabase()"
   - npm run coveralls
+  - cat coverage/lcov.info | node_modules/.bin/coveralls
 notifications:
   slack:
       on_success: change
@@ -19,6 +20,7 @@ notifications:
 branches:
   only:
   - master
+  - /^greenkeeper/.*$/
 env:
   global :
       - CXX=g++-4.8

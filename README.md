@@ -1,4 +1,6 @@
 # P4ng-server [![Build Status](https://img.shields.io/travis/jy95/P4ng-server.svg)](https://travis-ci.org/jy95/P4ng-server)  [![Coveralls branch](https://img.shields.io/coveralls/jy95/P4ng-server/master.svg)](https://coveralls.io/github/jy95/P4ng-server?branch=master) [![Dependency Status](https://img.shields.io/david/jy95/P4ng-server.svg)](https://david-dm.org/jy95/P4ng-server)  [![Dev Dependency Status](https://img.shields.io/david/dev/jy95/P4ng-server.svg)](https://david-dm.org/jy95/P4ng-server?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jy95/P4ng-server.svg)](https://greenkeeper.io/)
 Server side of P4ng
 
 > P4ng is a 4 player off and online version of the classic pong game by Team JaEGT.
