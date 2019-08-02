@@ -6,16 +6,16 @@
   "dependencies": {
     "async": "^3.0.1",
     "bcryptjs": "^2.3.0",
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.19.0",
     "callsite": "^1.0.0",
-    "express": "^4.14.0",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.3",
+    "snyk": "^1.208.0",
     "socket.io": "^2.0.0",
     "underscore": "^1.8.3",
-    "mongoose": "^5.0.3",
     "uuid": "^3.0.0",
-    "winston": "^2.3.0",
-    "snyk": "^1.190.0"
+    "winston": "^2.3.0"
   },
   "devDependencies": {
     "socket.io-client": "^2.0.3",
