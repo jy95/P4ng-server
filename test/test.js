@@ -473,7 +473,7 @@ describe('Server tests : ' , function () {
                         }
                     });
                 });
-
+/*
                 it('Test n°2 : Should not be able to join a room', function (done) {
                     this.timeout(250);
 
@@ -493,7 +493,7 @@ describe('Server tests : ' , function () {
                         }
                     });
                 });
-
+*/
                 it('Test n°3 : Should be able to join a room : Player2 joins Player1 room', function (done) {
                     this.timeout(250);
 
