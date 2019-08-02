@@ -453,7 +453,7 @@ describe('Server tests : ' , function () {
             });
 
             describe("Test case n°2 C : Join Room" ,function () {
-
+/*
                 it('Test n°1 : Should not be able to join a room', function (done) {
                     this.timeout(250);
 
@@ -473,6 +473,7 @@ describe('Server tests : ' , function () {
                         }
                     });
                 });
+*/
 /*
                 it('Test n°2 : Should not be able to join a room', function (done) {
                     this.timeout(250);
