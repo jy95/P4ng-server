@@ -4,7 +4,7 @@
   "description": "A realtime Node.js pong game",
   "main": "src/server/launch-server.js",
   "dependencies": {
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.19.0",
     "callsite": "^1.0.0",
@@ -15,7 +15,7 @@
     "socket.io": "^2.0.0",
     "underscore": "^1.8.3",
     "uuid": "^3.0.0",
-    "winston": "^2.3.0"
+    "winston": "^3.3.0"
   },
   "devDependencies": {
     "socket.io-client": "^2.0.3",
