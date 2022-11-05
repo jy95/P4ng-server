@@ -6,7 +6,7 @@
   "dependencies": {
     "async": "^3.0.1",
     "bcryptjs": "^2.3.0",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "callsite": "^1.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.1.0",
