@@ -9,7 +9,7 @@
     "body-parser": "^1.19.2",
     "callsite": "^1.0.0",
     "express": "^4.17.3",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.7.5",
     "snyk": "^1.316.1",
     "socket.io": "^2.5.0",
