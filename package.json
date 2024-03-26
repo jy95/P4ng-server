@@ -8,7 +8,7 @@
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.19.2",
     "callsite": "^1.0.0",
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.7.5",
     "snyk": "^1.685.0",
